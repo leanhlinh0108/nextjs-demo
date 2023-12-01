@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.service-card{
+    @apply w-[190px] h-[144px] relative items-center justify-center bg-[#EBEBEB] pb-2 rounded-lg
+}
+.service-card-img{
+    @apply absolute right-0 bottom-0
+}
+.service-card-text{
+    @apply absolute items-center text-center capitalize w-full mt-2 -left-3 font-medium text-sm
+}
